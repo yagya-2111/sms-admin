@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skypay SMS - Device Management</title>
+    <meta name="description" content="Skypay SMS forwarding and device management panel">
+    <meta name="author" content="Skypay" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <!-- TODO: Update og:title to match your application name -->
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0864f8fe-d406-4299-bb0a-1511497c2a63/id-preview-2de56d5f--78b4e719-5d49-4022-abc0-34f390c9ecc7.lovable.app-1776624166061.png">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0864f8fe-d406-4299-bb0a-1511497c2a63/id-preview-2de56d5f--78b4e719-5d49-4022-abc0-34f390c9ecc7.lovable.app-1776624166061.png">
+    <meta property="og:title" content="Skypay SMS - Device Management">
+  <meta name="twitter:title" content="Skypay SMS - Device Management">
+  <meta property="og:description" content="Skypay SMS forwarding and device management panel">
+  <meta name="twitter:description" content="Skypay SMS forwarding and device management panel">
+  <link rel="icon" type="image/png" href="/icon-192.png">
+</head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search.slice(1).split("&").map(function (s) {
+            return s.replace(/~and~/g, "&");
+          }).join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location));
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

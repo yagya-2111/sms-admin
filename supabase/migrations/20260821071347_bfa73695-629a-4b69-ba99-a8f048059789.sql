@@ -1,0 +1,1 @@
+ALTER TABLE public.app_config ADD COLUMN IF NOT EXISTS active_launcher text NOT NULL DEFAULT 'skypay';
