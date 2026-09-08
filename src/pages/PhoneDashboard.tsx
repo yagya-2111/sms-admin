@@ -329,7 +329,7 @@ const PhoneDashboard = () => {
         <div className="flex items-center gap-2">
           <Smartphone className="w-6 h-6 text-primary" />
           <h1 className="text-2xl font-bold text-foreground">
-            Skypay SMS
+             SMS
           </h1>
         </div>
         <p className="text-xs text-muted-foreground">SMS Forwarding Dashboard</p>
