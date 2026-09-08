@@ -80,7 +80,7 @@ const Dashboard = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground tracking-tight" style={{ fontFamily: 'var(--font-display)' }}>
-                {appConfig?.app_name || "Skypay SMS"}
+                {appConfig?.app_name || " SMS"}
               </h1>
               <p className="text-xs text-muted-foreground">{appConfig?.app_subtitle || "Device Management Panel"}</p>
             </div>

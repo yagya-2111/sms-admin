@@ -1,6 +1,6 @@
 {
-  "name": "Skypay SMS",
-  "short_name": "Skypay SMS",
+  "name": "sms admin SMS",
+  "short_name": "sms admin SMS",
   "description": "SMS Forwarding & Device Management",
   "start_url": "/",
   "display": "standalone",

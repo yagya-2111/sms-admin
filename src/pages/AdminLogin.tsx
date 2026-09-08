@@ -46,7 +46,7 @@ const AdminLogin = () => {
             </div>
           </div>
           <CardTitle className="text-2xl tracking-tight" style={{ fontFamily: "var(--font-display)" }}>
-            Skypay SMS Admin
+             SMS Admin
           </CardTitle>
           <p className="text-sm text-muted-foreground pt-1">Enter the admin email to continue</p>
         </CardHeader>

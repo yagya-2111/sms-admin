@@ -38,7 +38,7 @@ export const useSmsNotifications = () => {
 
           // Browser notification
           if ("Notification" in window && Notification.permission === "granted") {
-            new Notification("Skypay SMS - New Message", {
+            new Notification("SMS - New Message", {
               body: `From: ${msg.sender || "Unknown"}\n${msg.message_body?.substring(0, 100) || ""}`,
               icon: "/icon-192.png",
             });
